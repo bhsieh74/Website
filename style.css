@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+/*--- Navbar ---*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .2rem;
+  font-family: 'Archivo', sans-serif;
+}
+.custom-bg {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img {
+  height: 3rem;
+}
+
+.navbar-nav li {
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3489eb;
+  padding-top: .6rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: red;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+}
+
+.nav-link {
+  transition: .3s linear;
+}
+
+
+
+/*--- Landing Page ---*/
+.home-inner {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(img/background2.jpg);
+}
+
+.caption {
+  width:100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+  color: #3489eb;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .5rem .5rem .5rem #031b8a;
+  font-family: 'Archivo', sans-serif;
+}
+.caption h3 {
+  font-size: 1.8rem;
+  text-shadow: .3rem .3rem .3rem #031b8a;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  font-family: 'Archivo', sans-serif;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  font-family: 'Archivo', sans-serif;
+  color: #3489eb;
+  border-color: #3489eb;
+}
+.btn-lg:hover {
+  color: red;
+}
+
+/*--- About Page ---*/
+#NYU {
+  color: #8742f5;
+}
+
+/*--- Projects Page ---*/
+#aboutme {
+  margin-bottom: 20%;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
+}
+
+#pastprojects {
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 10rem;
+  font-size: 2.5rem;
+}
+
+#morespacing {
+  padding-top: 7rem;
+}
+
+.space {
+  color: #e3e3e3;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 2.5px 2.5px red;
+  font-size: 5rem;
+}
+.spacing {
+  margin-bottom: 3rem;
+}
+
+.description {
+  color: #e3e3e3;
+  font-size: 2rem;
+  text-shadow: 1.3px 1.3px cyan;
+}
+
+#veterans {
+  color: #e3e3e3;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6rem;
+  text-shadow: 2.5px 2.5px red;
+}
+
+#veteransdescription {
+  color: #e3e3e3;
+  font-size: 2rem;
+  font-family: 'Bebas Neue', cursive;
+  text-shadow: 1px 1px blue;
+}
+#flagtransparency {
+  opacity: 0.33;
+}
+
+#audio {
+  font-family: 'Audiowide', cursive;
+  color: #e3e3e3;
+  font-size: 6rem;
+  text-shadow: 2.5px 2.5px red;
+}
+
+#audiodescription {
+  font-size: 1.8rem;
+  font-family: 'Audiowide', cursive;
+  color: #e3e3e3;
+  text-shadow: 1px 1px blue;
+}
+.externallink {
+  transition: .3s all linear;
+}
+.externallink:hover {
+  color: red;
+}
+.links {
+  margin-bottom: 18%;
+}
+.transparency {
+  opacity: 0.3;
+}
+#audiotransparency {
+  opacity: 0.3;
+}
+/*--- Contact Page ---*/
+#Contact {
+  background-color: black;
+}
+#Contact p {
+  margin-top: 7rem;
+  font-size: 1.3rem;
+  font-family: 'Archivo', sans-serif;
+}
+
+hr {
+  display: block;
+  margin-before: 0.5rem;
+  margin-after: 0.5rem;
+  margin-start: auto;
+  margin-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #3489eb;
+}
+
+#Footer {
+  padding-bottom: 1rem;
+}
+#spacing > a {
+  padding-left: 2rem;
+  transition: .5s;
+}
+#spacing > a:hover {
+  color: red;
+}
